@@ -41,8 +41,8 @@ public class CheckParameters {
     public String CheckYear(int year, int i){
         String Element;
         Element = infocar.get(i).getAttribute("textContent");
-        int index = Element.indexOf(",");
-        String s = Element.substring(index+2, index+6);
+        int index = Element.indexOf(" ", 8);
+        String s = Element.substring(index+1, index+5);
         if (Integer.parseInt(s)<year) {
             return "неверный год";
         }

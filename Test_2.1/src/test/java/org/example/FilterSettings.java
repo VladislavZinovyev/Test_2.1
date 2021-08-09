@@ -71,21 +71,11 @@ public class FilterSettings {
         advancedsearch.click();
     }
 
-  /*  // метод нажатия на выпадающий списока марок
-    public static void clickcarbrand() {
-        carbrand.click();
-    }
-*/
     // метод нажатия на пункт "toyota"
     public static void clicktoyotabrand() {
         toyotabrand.click();
     }
-    
- /*   // метод нажатия на выпадающий список моделей
-    public static void clickcarmodel() {
-        carmodel.click();
-    }
-*/
+
     // метод нажатия на модель
     public static void clickharriermodel() {
         harriermodel.click();
